@@ -1,0 +1,11 @@
+name: torsional-diffusion
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+  - pyg
+dependencies:
+  - python=3.9
+  - rdkit
+  - pyaml
+  - matplotlib

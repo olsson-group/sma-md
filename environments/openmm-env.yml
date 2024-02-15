@@ -1,0 +1,11 @@
+name: openmm-env
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.9
+  - pytorch
+  - rdkit
+  - h5py
